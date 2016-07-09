@@ -1,19 +1,14 @@
 /*
  * NamesFreqSpellNonSensitive.cpp
- *
- *  Created on: 7 áéåì 2016
- *      Author: Yael
+ *      Author: Yael Cohen
  */
 
-#include "NamesFreqSpellNonSeneitive.h"
+#include "NamesFreqSpellNonSensitive.h"
 #include <iostream>
 
-NamesFreqSpellNonSeneitive::NamesFreqSpellNonSeneitive() {
-	// TODO Auto-generated constructor stub
+NamesFreqSpellNonSensitive::NamesFreqSpellNonSensitive() {}
 
-}
-
-NamesFreqSpellNonSeneitive::~NamesFreqSpellNonSeneitive()
+NamesFreqSpellNonSensitive::~NamesFreqSpellNonSensitive()
 	{
 		for (unsigned int i =0; i < graph.size(); i++)
 		{
@@ -25,7 +20,7 @@ NamesFreqSpellNonSeneitive::~NamesFreqSpellNonSeneitive()
 		}
 	}
 
-void NamesFreqSpellNonSeneitive::populateNodes(map<string, int>& namesFrequencyMap)
+void NamesFreqSpellNonSensitive::populateNodes(map<string, int>& namesFrequencyMap)
 {
 	map<string, int>::iterator it;
 	for (it = namesFrequencyMap.begin(); it != namesFrequencyMap.end(); it++ )
@@ -38,7 +33,7 @@ void NamesFreqSpellNonSeneitive::populateNodes(map<string, int>& namesFrequencyM
 	}
 }
 
-void NamesFreqSpellNonSeneitive::populateEdges(vector<vector<string>* > &synonyms  )
+void NamesFreqSpellNonSensitive::populateEdges(vector<vector<string>* > &synonyms  )
 {
 	for (unsigned int g =0; g < synonyms.size(); g++)  // for each group of synonyms
 	{
@@ -61,7 +56,7 @@ void NamesFreqSpellNonSeneitive::populateEdges(vector<vector<string>* > &synonym
 	}
 }
 
-void NamesFreqSpellNonSeneitive::countComponentFrequency_BFS()
+void NamesFreqSpellNonSensitive::countComponentFrequency_BFS()
 {
 	if (graph.empty())
 		return;
