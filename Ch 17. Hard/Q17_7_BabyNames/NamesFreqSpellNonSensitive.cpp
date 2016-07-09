@@ -1,7 +1,7 @@
 /*
- * NamesFreqSpellNonSeneitive.cpp
+ * NamesFreqSpellNonSensitive.cpp
  *
- *  Created on: 7 αιεμ 2016
+ *  Created on: 7 Γ‘Γ©Γ₯Γ¬ 2016
  *      Author: Yael
  */
 
