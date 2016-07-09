@@ -1,12 +1,12 @@
 /*
- * NamesFreqSpellNonSeneitive.h
+ * NamesFreqSpellNonSensitive.h
  *
- *  Created on: 7 αιεμ 2016
+ *  Created on: 7 Γ‘Γ©Γ₯Γ¬ 2016
  *      Author: Yael
  */
 
-#ifndef NamesFreqSpellNonSeneitive_H_
-#define NamesFreqSpellNonSeneitive_H_
+#ifndef NamesFreqSpellNonSensitive_H_
+#define NamesFreqSpellNonSensitive_H_
 
 #include <vector>
 #include <set>
@@ -15,10 +15,10 @@
 #include <string>
 using namespace std;
 
-class NamesFreqSpellNonSeneitive {
+class NamesFreqSpellNonSensitive {
 public:
-	NamesFreqSpellNonSeneitive();
-	virtual ~NamesFreqSpellNonSeneitive();
+	NamesFreqSpellNonSensitive();
+	virtual ~NamesFreqSpellNonSensitive();
 
 	struct Node
 	{
@@ -52,4 +52,4 @@ public:
 
 };
 
-#endif /* NamesFreqSpellNonSeneitive_H_ */
+#endif /* NamesFreqSpellNonSensitive_H_ */
