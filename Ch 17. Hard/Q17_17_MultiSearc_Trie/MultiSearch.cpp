@@ -7,7 +7,7 @@
  *  Given a string b and an array of smaller strings T, design a method to search b for each small string in T
  *
  *  Assumptions: -Print the substring words to the standard output
- *  			 -if a word in T appears more than once in b, it will be printed once
+ *  		 -if a word in T appears more than once in b, it will be printed once
  */
 
 #include "Trie.h"
@@ -15,14 +15,12 @@
 #include <vector>
 #include <set>
 #include <iostream>
-#include <sstream>  //stringstream for TC3
 
-#include <algorithm> //find_if  for TC3
 using namespace std;
 /*
  * method printSubStringsOfB
  * @input: T - vector of small strings.
- * 		   b -  longer string
+ * 	   b -  longer string
  * @Description: the method prints all the words in T that are substrings of b
  * @Runtime: O(V*M + B*M)    where V is the size of T, M is the longest word in T and B is the length of B
  */
